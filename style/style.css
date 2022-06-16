@@ -1,0 +1,140 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+} */
+.body{
+    font-family: 'DM Sans', sans-serif;
+}
+h1{
+    
+    font-size: 20px;
+    color: rgba(red, green, blue);
+}
+.container{
+    
+margin: 50px auto;
+max-width: 1070px;
+}
+.header{
+    background: rgba(255, 113, 67, 0.27);
+    padding: 38px 0 48px;
+}
+.header_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 104px auto 85px;
+}
+.btn1{
+padding: 20px 30px;
+margin: 20px 30px;
+
+}
+.nav_li{
+    display: inline-block;
+    
+}
+.nav_li:not(:first-of-type){
+    margin-left: 49px;
+}
+.nav_link{
+font-weight: bold;    
+font-size: 15px;
+line-height: 20px;
+letter-spacing: -0.468947px;
+color: #696871;
+text-decoration: none;
+
+}
+.nav_link:hover{
+    color: black;
+    transition: 300ms;
+}
+.button{
+    width: 212px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.531474px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    } 
+
+.button_orange{
+    background-color: #FF7143;
+}
+.button_orange:hover{
+    background: #df7d5c;
+    transition: 500ms;
+}
+
+
+.about_title{
+font-weight: bold;
+font-size: 80px;
+line-height: 77px;
+letter-spacing: -2.50105px;
+color: #19191B;
+max-width: 464px;
+margin-bottom: 30px;
+}
+.about_text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.625263px;
+    color: #696871;
+    max-width: 464px;
+    margin-bottom: 50px;
+    
+}
+.button_violet{
+background:#5454D4;
+
+}
+.button_trancparent{
+background: none;
+color: #5454D4;
+border: 1px solid #5454d4;
+margin-left:30px;
+
+}
+
+.container_footer{
+    background: rgba(255, 113, 67, 0.27);
+}
+.footer_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px 30px; 
+}
+
+.footer_li{
+display: inline-block;
+}
+.footer_li:not(:first-of-type){
+    margin-left: 49px;
+}
+.footer_link{
+font-weight: bold;    
+font-size: 15px;
+line-height: 20px;
+letter-spacing: -0.468947px;
+color: #696871;
+text-decoration: none;
+}
+.footer_link:hover{
+    color: black;
+    transition: 300ms;
+}
