@@ -21,7 +21,7 @@ max-width: 1070px;
     background: rgba(255, 113, 67, 0.27);
     padding: 38px 0 48px;
 }
-.header_flex{
+.header_flex, .subscribe, .plan_flex{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -137,4 +137,104 @@ text-decoration: none;
 .footer_link:hover{
     color: black;
     transition: 300ms;
+}
+
+.subscribe{
+    margin-bottom: 85px;
+}
+.subcribe_title{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: -1.56316px;
+    color: #19191B; 
+    margin-bottom: 38px;
+}
+input{
+    width: 302px;
+    height: 60px;
+    border-radius: 10px;
+    border-color: 1px solid firebrick;
+    box-sizing: border-box;
+    margin-right: 39px;
+}
+input::placeholder, input{
+font-weight: 700;
+font-size: 17px;
+line-height: 22px;
+letter-spacing: -0.531474px;
+color: #000000;
+
+}
+.input:focus{
+    outline: none;
+}
+.plan{
+margin-bottom: 32px;
+}
+.plan_title{
+ font-weight: 700;
+font-size: 60px;
+line-height: 70px;
+letter-spacing: -1.87579px;
+color: #19191B;
+max-width: 504px;
+margin-bottom: 110px;
+}
+.item{
+    width: 330px;
+    background: #F8F8F8;
+border-radius: 10px;
+text-align: center;
+padding: 34px 0 27px;
+
+}
+.item_text{
+     font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.562737px;
+    color: #696871;
+     
+}
+.item:hover{
+    background: #FF7143;
+box-shadow: 0px 32px 34px rgba(255, 112, 59, 0.317827);
+border-radius: 10px;
+transition: 500ms;
+}
+.item:hover .item_text, .item:hover .item_title, .item:hover .item_li {
+    color: white;
+    transition: 500ms;
+}
+.item_title{
+font-weight: bold;
+font-size: 60px;
+line-height: 56px;
+letter-spacing: -1.03448px;
+color: black;
+margin: 22px 0 28px;
+}
+.item_title span{
+    font-size: 28px;
+
+}
+.item_li{
+    list-style: none;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 50px;
+    letter-spacing: -0.531474px;
+    color: #696871;
+}
+.button_item{
+    width: 285px;
+    background: white;
+    color: #5454D4;
+    margin-top: 36px;
+
+}
+.item:hover .button_item{
+    background: #9F3919;
+    color: #FFFFFF;
+    transition: 500ms;
 }
